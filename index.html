@@ -7,6 +7,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap" rel="stylesheet">
   <link rel="icon" href="favicon.png" type="image/png">
   <style>
+    .social-top {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  z-index: 10;
+}
+
+.social-top img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+.social-top a:hover img {
+  transform: scale(1.2);
+}
     body {
       background-color: #f5f2f0;
       color: #333333;
@@ -72,6 +90,20 @@ nav a:hover::after {
   <header>
         <img src="images/Glass-Bee-Logo.png" alt="Glass Bee Studio Logo">
     </header>
+  <div class="social-top">
+  <a href="https://www.instagram.com/glassbeestudio/" target="_blank">
+    <img src="images/instagram_icon.png" alt="Instagram">
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=61578829040585" target="_blank">
+    <img src="images/facebook_icon.png" alt="Facebook">
+  </a>
+  <a href="https://www.glassbeestudio.etsy.com" target="_blank">
+    <img src="images/etsy_icon.png" alt="Etsy">
+  </a>
+  <a href="mailto:glassbeestudio@gmail.com">
+    <img src="images/email_icon.png" alt="Email">
+  </a>
+</div>
   <nav>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
