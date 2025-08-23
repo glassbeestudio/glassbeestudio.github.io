@@ -32,6 +32,40 @@
       padding: 2rem;
       text-align: center;
     }
+    nav {
+  background-color: #7db4cc;
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem 0;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+   nav a {
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.25rem 0;
+  transition: all 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 4px;
+  background-color: #ffc300;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+}
   </style>
 </head>
 <body>
@@ -39,6 +73,12 @@
         <img src="images/Glass-Bee-Logo.png" alt="Glass Bee Studio Logo">
     <h1>Glass Bee Studio</h1>
   </header>
+  <nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
   <main>
     <p>Welcome to my website! I'm Claire, and I create handmade stained glass suncatchers in Seaford, UK.</p>
     <p>Check back soon for patterns, updates, and Obi the Frenchie 🐾</p>
