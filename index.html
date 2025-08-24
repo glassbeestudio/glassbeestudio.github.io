@@ -6,7 +6,59 @@
   <!-- Load Glacial Indifference font -->
   <link href="https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap" rel="stylesheet">
   <link rel="icon" href="favicon.png" type="image/png">
+ 
   <style>
+
+    body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+    img {
+  max-width: 100%;
+  height: auto;
+}
+
+    .intro-section,
+.gallery-grid,
+.obi-intro {
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .obi-intro,
+.footer-social-icons {
+  text-align: center;
+}
+  @media (max-width: 768px) {
+  .intro-image,
+  .obi-intro img {
+    width: 70%;
+    margin-bottom: 1rem;
+  }
+
+  .intro-text,
+  .obi-intro div {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .gallery-grid img {
+    width: 80%;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .social-top {
+    position: static;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+}
+  
     .social-top {
   position: absolute;
   top: 1rem;
