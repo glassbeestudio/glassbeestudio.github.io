@@ -9,17 +9,17 @@
  
   <style>
 
-    body {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
     img {
   max-width: 100%;
   height: auto;
 }
-
+.page-container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+    
 .intro-section,
 .gallery-grid,
 .obi-intro {
@@ -61,10 +61,10 @@
   }
 }
   
-  .social-top {
+.social-top {
   position: absolute;
   top: 1rem;
-  right: calc((100vw - 1200px) / 2 + 1rem);
+  right: 1rem;
   display: flex;
   gap: 0.75rem;
   z-index: 10;
@@ -281,9 +281,11 @@ footer p {
   </style>
 </head>
 <body>
+  <div class="page-container">
   <header>
         <img src="images/Glass-Bee-Logo.png" alt="Glass Bee Studio Logo">
     </header>
+    
   <div class="social-top">
   <a href="https://www.instagram.com/glassbeestudio/" target="_blank">
     <img src="images/instagram_icon.png" alt="Instagram">
