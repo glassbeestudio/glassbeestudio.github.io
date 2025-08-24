@@ -64,6 +64,73 @@
   font-size: 1.1rem;
   color: #333333;
 }
+.gallery-preview {
+  text-align: center;
+  margin: 4rem 1rem;
+}
+
+.gallery-preview h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.gallery-grid img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+.gallery-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffc300;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+    
+.obi-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  background-color: #f5f2f0;
+  flex-wrap: wrap;
+}
+
+.obi-intro img {
+  width: 200px;
+  border-radius: 100px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.obi-intro h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.obi-intro p {
+  max-width: 400px;
+  color: #333;
+}
+    
     header img {
       width: 600px;
       max-width: 90%;
@@ -180,6 +247,24 @@ footer p {
     <p>Check back soon for patterns, updates, and Obi the Frenchie 🐾</p>
   </div>
 </section>
+  <section class="gallery-preview">
+  <h2>Some of My Favourite Pieces</h2>
+  <div class="gallery-grid">
+    <img src="images/Suncatcher_1.jpg" alt="Frenchie with sunglasses">
+    <img src="images/Suncatcher_2.jpg" alt="Moth with lightbulb">
+    <img src="images/Suncatcher_3.jpg" alt="Colourful balloon">
+  </div>
+  <a href="gallery.html" class="gallery-button">View Full Gallery</a>
+</section>
+  
+<section class="obi-intro">
+  <img src="images/obi_intro.jpg" alt="Obi the Frenchie">
+  <div>
+    <h2>Meet Obi 🐾</h2>
+    <p>Obi is the resident French Bulldog and creative supervisor at Glass Bee Studio. You’ll find him snoozing in sunbeams, sniffing glass offcuts, and making sure Claire takes tea breaks.</p>
+  </div>
+</section>
+  
    <footer>
   <p>© Glass Bee Studio 2025</p>
   <div class="footer-social-icons">
