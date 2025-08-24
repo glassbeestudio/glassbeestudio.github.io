@@ -42,6 +42,19 @@
     justify-content: center;
     margin-bottom: 1rem;
   }
+
+      .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .about-photo {
+    margin-bottom: 1rem;
+  }
 }
   
 .social-top {
@@ -285,19 +298,4 @@ footer p {
   font-size: 1.05rem;
   line-height: 1.6;
   color: #333;
-}
-
-@media (max-width: 768px) {
-  .about-section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-text {
-    text-align: center;
-  }
-
-  .about-photo {
-    margin-bottom: 1rem;
-  }
 }
