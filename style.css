@@ -63,13 +63,13 @@
   transform: scale(1.2);
 }
     body {
-      background-color: #f5f2f0;
-      color: #333333;
-      font-family: 'Glacial Indifference', sans-serif;
-      margin: 0 auto;
-      padding: 0 1rem;
-    max-width: 1200px;
-  }
+  background-color: #f5f2f0;
+  color: #333333;
+  font-family: 'Glacial Indifference', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
     header {
   position: relative;
   text-align: center;
@@ -287,3 +287,17 @@ footer p {
   color: #333;
 }
 
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .about-photo {
+    margin-bottom: 1rem;
+  }
+}
