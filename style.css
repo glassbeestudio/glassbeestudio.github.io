@@ -273,10 +273,11 @@ footer p {
 }
 
 .about-photo {
-  width: 280px;
-  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* makes it a circle */
+  object-fit: cover;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-}
 
 .about-text {
   max-width: 550px;
