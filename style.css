@@ -29,6 +29,7 @@
   }
 
   .gallery-grid img {
+      transition: transform 0.2s ease;
     width: 80%;
   }
 
