@@ -135,6 +135,39 @@ nav a.shop-button:hover {
 }
 
 
+/* ========== Gallery Page ========== */
+.gallery-preview {
+  text-align: center;
+  margin: 4rem 1rem;
+}
+
+.gallery-preview h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.gallery-grid img {
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+
+
 /* ========== About Page ========== */
 .about-section,
 .obi-intro {
