@@ -1,8 +1,8 @@
-    img {
+img {
   max-width: 100%;
   height: auto;
 }
-  
+
 .intro-section,
 .gallery-grid,
 .obi-intro {
@@ -15,9 +15,8 @@
   text-align: center;
 }
 
-
 .etsy-banner {
-  background-color: transparent; /* or remove this line */
+  background-color: transparent;
   padding: 2rem 1rem;
   text-align: center;
   margin: 2rem 0;
@@ -33,50 +32,6 @@
   margin-bottom: 1rem;
 }
 
-  @media (max-width: 768px) {
-  .intro-image,
-  .obi-intro img {
-    width: 70%;
-    margin-bottom: 1rem;
-  }
-     
-      
-  .intro-text,
-  .obi-intro div {
-    text-align: center;
-    padding: 0 1rem;
-  }
-
-  .gallery-grid img {
-      transition: transform 0.2s ease;
-    width: 80%;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .social-top {
-    position: static;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-
-      .about-section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-text {
-    text-align: center;
-  }
-
-  .about-photo {
-    margin-bottom: 1rem;
-  }
-}
-  
 .social-top {
   position: absolute;
   top: 1rem;
@@ -95,21 +50,23 @@
 .social-top a:hover img {
   transform: scale(1.2);
 }
-    body {
+
+body {
   background-color: #f5f2f0;
   color: #333333;
   font-family: 'Glacial Indifference', sans-serif;
   margin: 0;
   padding: 0;
-    min-height: 100vh;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
-    header {
+header {
   position: relative;
   text-align: center;
   padding: 2rem 1rem 1rem 1rem;
 }
+
 .intro-section {
   display: flex;
   align-items: center;
@@ -120,23 +77,27 @@
   padding: 0 1rem;
   flex-wrap: wrap;
 }
+
 .intro-image {
   width: 300px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
+
 .intro-heading {
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: #333;
 }
+
 .intro-text {
   max-width: 500px;
   font-size: 1.1rem;
   color: #333333;
 }
+
 .gallery-preview {
   text-align: center;
   margin: 4rem 1rem;
@@ -147,7 +108,7 @@
   padding: 60px 20px;
   text-align: center;
 }
-    
+
 .gallery-preview h2 {
   font-size: 2em;
   color: #333333;
@@ -167,6 +128,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 250px;
   height: auto;
+  transition: transform 0.2s ease;
 }
 
 .gallery-grid img:hover {
@@ -187,7 +149,7 @@
 .gallery-button:hover {
   background-color: #e6ae00;
 }
-    
+
 .obi-intro {
   display: flex;
   align-items: center;
@@ -213,22 +175,25 @@
   max-width: 400px;
   color: #333;
 }
-    
-    header img {
-      width: 600px;
-      max-width: 90%;
-      display: block;
-      margin: 0 auto 1rem auto;
-    }
-    header h1 {
-      font-size: 2rem;
-      margin: 0;
-    }
-    main {
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    nav {
+
+header img {
+  width: 600px;
+  max-width: 90%;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+main {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+nav {
   background-color: #7db4cc;
   display: flex;
   justify-content: center;
@@ -237,7 +202,8 @@
   flex-wrap: wrap;
   margin-bottom: 2rem;
 }
-   nav a {
+
+nav a {
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -263,6 +229,7 @@ nav a::after {
 nav a:hover::after {
   transform: scaleX(1);
 }
+
 footer {
   background-color: #333333;
   color: #ffffff;
@@ -295,11 +262,12 @@ footer p {
   height: 28px;
   vertical-align: middle;
 }
+
 .about-section {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; /* allows stacking on mobile */
+  flex-wrap: wrap;
   gap: 2rem;
   padding: 3rem 1rem;
   max-width: 1000px;
@@ -310,7 +278,7 @@ footer p {
 .about-photo {
   width: 200px;
   height: 200px;
-  border-radius: 50% / 40%; /* makes it oval */
+  border-radius: 50% / 40%;
   object-fit: cover;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 }
@@ -321,7 +289,7 @@ footer p {
   line-height: 1.6;
   color: #333;
 }
-/* Lightbox background overlay */
+
 .lightbox-overlay {
   position: fixed;
   top: 0;
@@ -414,7 +382,36 @@ nav a.shop-button:hover {
   background-color: #e6ae00;
 }
 
+.claire-section {
+  background-color: #f5f2f0;
+}
 
+.obi-section {
+  background-color: #e9f3f7;
+  border-top: 1px solid #ccc;
+}
+
+.thank-you-message {
+  margin-top: 2rem;
+  background-color: #e9f3f7;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  color: #333;
+}
+
+.thank-you-message a {
+  color: #7db4cc;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .intro-image,
+  .obi-intro img {
+    width: 70%;
+    margin-bottom: 1rem;
+  }
 
   .intro-text,
   .obi-intro div {
@@ -423,7 +420,6 @@ nav a.shop-button:hover {
   }
 
   .gallery-grid img {
-    transition: transform 0.2s ease;
     width: 80%;
   }
 
@@ -433,27 +429,19 @@ nav a.shop-button:hover {
   }
 
   .about-text h2 {
-  font-size: 1.6rem;
-  margin-bottom: 0.5rem;
-  color: #222;
-}
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
 
   .about-photo {
     margin-bottom: 1rem;
   }
 
-.about-photo-container {
-  display: flex;
-  justify-content: center;
-}
-
-.about-photo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50% / 40%;
-  object-fit: cover;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-}
+  .about-photo-container {
+    display: flex;
+    justify-content: center;
+  }
 
   .contact-section {
     padding: 1rem;
@@ -488,27 +476,4 @@ nav a.shop-button:hover {
     justify-content: center;
     margin-bottom: 1rem;
   }
-}
-
-.claire-section {
-  background-color: #f5f2f0;
-}
-
-.obi-section {
-  background-color: #e9f3f7;
-  border-top: 1px solid #ccc;
-}
-
-.thank-you-message {
-  margin-top: 2rem;
-  background-color: #e9f3f7;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  text-align: center;
-  color: #333;
-}
-.thank-you-message a {
-  color: #7db4cc;
-  font-weight: bold;
 }
