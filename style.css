@@ -383,6 +383,18 @@ footer p {
   background-color: #e6ae00;
 }
 
+nav a.shop-button {
+  background-color: #ffc300;
+  color: #333;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav a.shop-button:hover {
+  background-color: #e6ae00;
+}
+
 @media (max-width: 768px) {
   .intro-image,
   .obi-intro img {
