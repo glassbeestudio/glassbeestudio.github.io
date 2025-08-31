@@ -17,8 +17,8 @@
 
 
 .etsy-banner {
-  background-color: rgba(255, 195, 0, 0.1);
-  padding: 3rem 1rem;
+  background-color: transparent; /* or remove this line */
+  padding: 2rem 1rem;
   text-align: center;
   margin: 2rem 0;
 }
