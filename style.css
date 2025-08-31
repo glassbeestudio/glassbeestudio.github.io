@@ -19,6 +19,21 @@ main {
   text-align: center;
 }
 
+.gallery-button {
+  background-color: #ffc300;
+  color: #333333;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.gallery-button:hover {.gallery-button:hover {
+  background-color: #e6ae00;
+}
+
 /* ========== Header ========== */
 header {
   position: relative;
@@ -116,6 +131,23 @@ nav a.shop-button:hover {
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: #333;
+}
+
+.etsy-banner {
+  background-color: transparent;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.etsy-banner h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.etsy-banner p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
