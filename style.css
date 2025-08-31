@@ -136,8 +136,11 @@ nav a.shop-button:hover {
 .etsy-banner {
   background-color: transparent;
   padding: 2rem 1rem;
-  text-align: center;
   margin: 2rem 0;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .etsy-banner h2 {
