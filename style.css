@@ -103,7 +103,7 @@ nav a.shop-button:hover {
   height: 200px;
   object-fit: cover;
   border-radius: 50% / 40%;
-  border: 3px solid #c9e3ee;
+  border: 5px solid #7db4cc;
   box-shadow: none;
 }
 
