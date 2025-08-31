@@ -39,7 +39,8 @@
     width: 70%;
     margin-bottom: 1rem;
   }
-
+     
+      
   .intro-text,
   .obi-intro div {
     text-align: center;
@@ -224,7 +225,7 @@
       margin: 0;
     }
     main {
-      padding: 2rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
     nav {
@@ -413,12 +414,7 @@ nav a.shop-button:hover {
   background-color: #e6ae00;
 }
 
-@media (max-width: 768px) {
-  .intro-image,
-  .obi-intro img {
-    width: 70%;
-    margin-bottom: 1rem;
-  }
+
 
   .intro-text,
   .obi-intro div {
@@ -436,13 +432,28 @@ nav a.shop-button:hover {
     text-align: center;
   }
 
-  .about-text {
-    text-align: center;
-  }
+  .about-text h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
 
   .about-photo {
     margin-bottom: 1rem;
   }
+
+.about-photo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50% / 40%;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
 
   .contact-section {
     padding: 1rem;
@@ -477,4 +488,13 @@ nav a.shop-button:hover {
     justify-content: center;
     margin-bottom: 1rem;
   }
+}
+
+.claire-section {
+  background-color: #f5f2f0;
+}
+
+.obi-section {
+  background-color: #e9f3f7;
+  border-top: 1px solid #ccc;
 }
