@@ -15,6 +15,24 @@
   text-align: center;
 }
 
+
+.etsy-banner {
+  background-color: rgba(255, 195, 0, 0.1);
+  padding: 3rem 1rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.etsy-banner h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.etsy-banner p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
   @media (max-width: 768px) {
   .intro-image,
   .obi-intro img {
